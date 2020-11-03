@@ -9,31 +9,28 @@
 <body>
 
     <h1>Exercice 4/2 - JavaScript</h1>
-    <!-- Ex01 : Créer une variable message et lui donner une valeur. L'afficher dans une boîte de dialogue. -->
 
-    <!-- Script : nb season, episodes -->
+
+
     <script type="text/javascript">
+        // On demande une note et on l'a stocke dans une variable note
+
         // Déclaration des variables
+        let note = prompt("Insérer votre note");
 
-        let note = prompt ("Insérer votre note");
-    
-            if (note <= 3) {
-              alert ("Nul");
-            }
-            else if (note > 3 & note <= 6) {
-                alert("Moyen");
-            }
-            else if (note > 6 & note <= 8) {
-                alert("Assez bien");
-            }
-            else if (note > 8 & note <= 9) {
-                alert("très bien");
-            }
-            else {
-                alert("Excellent");
-            }
-
-        // Alert  result of numbers of episode 
+        if (note <= 3) {
+            alert("Nul");
+        } else if (note > 3 && note <= 6) {
+            alert("Moyen");
+        } else if (note > 6 && note <= 8) {
+            alert("Assez bien");
+        } else if (note > 8 && note <= 9) {
+            alert("très bien");
+        } else if (note == 10) {
+            alert("Excellent");
+        } else {
+            alert("Saisir une note correcte");
+        }
     </script>
 </body>
 

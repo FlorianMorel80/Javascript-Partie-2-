@@ -9,25 +9,29 @@
 <body>
 
     <h1>Exercice 2/2 - JavaScript</h1>
-    <!-- Ex01 : Créer une variable message et lui donner une valeur. L'afficher dans une boîte de dialogue. -->
-
-    <!-- Script : nb season, episodes -->
+    <!-- Demander à l'aide d'une boîte de dialogue l'âge d'un utilisateur. S'il a plus de 18 ans, lui afficher Vous êtes majeur, sinon lui afficher Vous êtes mineur.
+     -->
     <script type="text/javascript">
         // Déclaration des variables
 
-        let ageMinimum = prompt ("Votre age");
-    
+        let ageMinimum = prompt('Votre age');
+
+        if (ageMinimum > 0 && 120) {
             if (ageMinimum > 18) {
-              alert ("Vous êtes majeur.")
+                alert('Vous êtes majeur.');
+            } else {
+                alert('Vous être mineur.');
             }
-            else {
-                alert("Vous être mineur.");
-            }
-        
+        } else {
+            alert('Veuillez saisir un age entre 0 et 120');
+        }
 
 
-        // Alert  result of numbers of episode 
+
+
+        // Alert  result of numbers of episode
     </script>
+
 </body>
 
 </html>
